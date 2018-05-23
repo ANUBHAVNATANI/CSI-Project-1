@@ -1,0 +1,3 @@
+Project Idea 1-
+The basic idea is to make train delay prediction based on the previous data.
+So that it is easy for people to choose trains while booking tickets.
