@@ -1,3 +1,9 @@
 Project Idea 1-
 The basic idea is to make train delay prediction based on the previous data.
 So that it is easy for people to choose trains while booking tickets.
+
+The idea is changed to student performace prediction by using machine learning.
+Tasks
+1.To make an interface which can take dataset from user and generate model and prediction iteself
+2.the can also do analysis itself of the data
+3.Planning to use python with its libraries in the data anlysis process
