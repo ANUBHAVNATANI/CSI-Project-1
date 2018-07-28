@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>MAnalytic</title>
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed|Handlee" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/style.css">
+  </head>
+  <body>
+    <div id="particles-js">
+      <script type="text/javascript" src="/static/particles.js"></script>
+      <script type="text/javascript" src="/static/app.js"></script>
+      <div class="btext">
+          <section class="text-center display-1">MAnalytic</section>
+          <div id="info" class="text-center h3">
+            <p>
+                The Platform for analysis and prediction of student preformace
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-12">
+          <a href="{{url_for('dsa')}}" class="btn btn-primary btn-md ">DSA</a>
+               <a href="{{url_for('anel')}}" class="btn btn-primary btn-md ">ANEL</a>
+              </div>
+            </div>
+      </div>
+    </div>
+  </body>
+</html>

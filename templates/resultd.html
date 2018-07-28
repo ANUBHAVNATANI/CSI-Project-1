@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Prediction</title>
+        <link rel="stylesheet" type="text/css" href="/static/results.css">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    </head>
+    <body>
+       
+            <ul class="cards">
+              <li class="cards__item">
+                <div class="card">
+                    {% if prediction == 0 %}
+                  <div class="card__image card__image--fence">
+                    <h1>F</h1>
+                  </div>
+                  <div class="card__content">
+                    <p class="card__text">The student did not perform good he need serious attention based on the analysis of DSA marks we have prepared a report which suggest some methods which can help such students excel in such task.</p>
+                    <form action="/static/reportd.html" method="GET">
+                    <button class="btn btn--block card__btn">Suggestions</button>
+                    </form>
+                    </div>
+                  {% elif prediction == 1 %}
+                  <div class="card__image card__image--fence">
+                    <h1>D</h1>
+                  </div>
+                  <div class="card__content">
+                    <p class="card__text">The student did not perform good he need serious attention based on the analysis of DSA marks we have prepared a report which suggest some methods which can help such students excel in such task.</p>
+                    <form action="/static/reportd.html" method="GET">
+                    <button class="btn btn--block card__btn">Suggestions</button>
+                  </form>
+                  </div>
+                  {% elif prediction == 2 %}
+                  <div class="card__image card__image--fence">
+                    <h1>CD</h1>
+                  </div>
+                  <div class="card__content">
+                    <p class="card__text">The student did so so ok, he need resources which can be found and also the analysis which can be seen the analysis page on this website.</p>
+                  <form action="https://github.com/ANUBHAVNATANI/Data-Structures-And-Algorithms" method="GET">
+                    <button class="btn btn--block card__btn">Resources</button>
+                  </form>
+                  </div>
+                  {% elif prediction == 3 %}
+                  <div class="card__image card__image--fence">
+                    <h1>C</h1>
+                  </div>
+                  <div class="card__content">
+                    <p class="card__text">The student did ok in the exams but need furthur attention our resources list can help the student for the couse and help him in his furthur studies</p>
+                    <form action="https://github.com/ANUBHAVNATANI/Data-Structures-And-Algorithms" method="GET">
+                    <button class="btn btn--block card__btn">Resources</button>
+                  </form>
+                  </div>
+                  {% elif prediction == 4 %}
+                  <div class="card__image card__image--fence">
+                    <h1>BC</h1>
+                  </div>
+                  <div class="card__content">
+                    <p class="card__text">Student did fairly ok in the exams he can use the resourses link to furthur improve in the course and make his computer science knowledge strong</p>
+                    <form action="https://github.com/ANUBHAVNATANI/Data-Structures-And-Algorithms" method="GET">
+                    
+                    <button class="btn btn--block card__btn">Resources</button>
+                  </form>
+                  </div>
+                  {% elif prediction == 5 %}
+                  <div class="card__image card__image--fence">
+                    <h1>B</h1>
+                  </div>
+                  <div class="card__content">
+                    <p class="card__text">Student did good in the course he can now move forward and use this resourses to furthur advance in the course and improve his computer science skills.</p>
+                    <form action="https://github.com/ANUBHAVNATANI/Data-Structures-And-Algorithms" method="GET">
+                  
+                    <button class="btn btn--block card__btn">Resources</button>
+                  
+                  </form></div>
+                  {% elif prediction == 6 %}
+                  <div class="card__image card__image--fence">
+                    <h1>AB</h1>
+                  </div>
+                  <div class="card__content">
+                    <p class="card__text">The student did good in the course and the previous course he sould continue this preformace we suggest he should do development like web development and android development.</p>
+                    <form action="http://www.udemy.com" method="GET">
+                    <button class="btn btn--block card__btn">Websites</button>
+                  </form>
+                  </div>
+                  {% elif prediction > 6 %}
+                  <div class="card__image card__image--fence">
+                    <h1>A</h1>
+                  </div>
+                  <div class="card__content">
+                    <p class="card__text">The student did very good in the exams and the course and he should probably try competative coding here are the link of the website which can be useful for such purposes and he can apply the knowledge of the course on the questions on the website.</p>
+                    <form action="http://www.hackerearth.com" method="GET">
+                    <button class="btn btn--block card__btn">Websites</button>
+                  </form>
+                  </div>
+                  {% endif %}
+                </div>
+              </li>
+            </ul>
+            <center><p>Fork me on Github--Anubhav Natani--<a href=https://github.com/ANUBHAVNATANI/CSI-Project-1>Link</a></p></center>           
+    </body>
+</html>  
+
+
+    
