@@ -1,0 +1,67 @@
+section{
+  font-family: 'Cabin Condensed', sans-serif;
+
+}
+.btext{
+    color: #f9f3f4;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+    line-height: 0.4em;
+}
+
+#info{
+  font-family: 'Handlee', cursive;
+}
+#particles-js{
+    background-image: url('bluewall.jpg');
+    height: 100vh;
+}
+
+
+
+topnav{
+	background-color: #8DC4F6;
+	overflow: hidden;
+}
+.topnav a{
+	float:right;
+	display: block;
+	color:aqua;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+.topnav a:hover{
+	background-color: blue;
+	color:chartreuse;
+}
+.active{
+	background-color: aliceblue;
+	color:white;
+}
+.topnav .icon{
+	display:none;
+}
+@media screen and (max-width:600px){
+	.topnav a:not(:first-child){display: none;}
+	.topnav a.icon{
+		float:right;
+		display:block;
+	}
+}
+@media screen and (max-width: 600px){
+	.topnav.responsive{position:relative;}
+	.topnav.responsive a.icon{
+		position: absolute;
+		right:0;
+		top:0;
+	}
+.topnav.responsive a {
+    float: none;
+    display: contents;
+    text-align: left;
+}
+}

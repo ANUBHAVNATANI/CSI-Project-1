@@ -1,0 +1,42 @@
+{% extends "bootstrap/base.html" %}
+{% block content %}
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="main.html">MAnalytic</a>
+            <div class="navbar-nav">
+            <a class="nav-item nav-link" href="dsaAnalytic.html">Analysis</a>
+            <a class="nav-item nav-link" href="home.html">Home</a>
+        </div>
+        </nav>
+        <div class="jumbotron">
+            <h1 class="display-5">DSA Perfomance Prediction</h1>
+            <p class="lead">We have tried and tested several model on the data of DSA marks of students of Y-17 batch and came up with a very less error in 
+                student performance prediction based on some previous data. We have also carefully studied the data and gained usefull insights and founded some 
+                intresting things students and their teachers can do and follow to get good grades in DSA. 
+            </p>
+            <hr class="my-4">
+            <p>The link to the above mentioned suggestions can be found in the page click the button below to go to the page</p>
+            <a class="btn btn-primary btn-lg" href="dsaAnalytic.html">Suggestions</a>
+            <a class="btn btn-primary btn-lg" href="dsaAnalytic.html">Get Code</a>
+        </div> 
+        <div class="jumbotron">
+            <form class="form-row">
+                <div class="form-group col-md-6">
+                    <label>CPLab-Grade</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group col-md-6">
+                        <label>CP-Grade</label>
+                        <input type="text" class="form-control">
+                </div>
+                <div class="form-group col-md-6">
+                        <label>DSA-Lab-Marks</label>
+                        <input type="number" class="form-control">
+                </div>
+                <div class="form-group col-md-6">
+                        <label>Mid-term-Marks</label>
+                        <input type="number" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-primary">Predict</button>               
+            </form>
+        </div>      
+{% endblock %}

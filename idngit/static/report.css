@@ -1,0 +1,14 @@
+
+.newFont{
+    color:#006DFF;
+    font-family: Josefin Sans;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.newFontN{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+}
