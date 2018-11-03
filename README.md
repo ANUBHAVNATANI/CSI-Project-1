@@ -1,6 +1,6 @@
 # CSI-Project-1
 
-## To run the porject files
+## To run the project files
 
 ## Perform the following steps
 
